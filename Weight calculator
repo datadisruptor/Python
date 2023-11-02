@@ -1,0 +1,12 @@
+name = input("What's your name? ")
+
+weight_kg = input("Weight: (KG) ")
+
+# Convert the weight from kilograms to pounds by multiplying by 2.2 (if you want to change it to pounds make it 4.5 and remember to rename.)
+# The 'int' function is used to convert the input (which is a string) to an integer
+weight_lbs = int(weight_kg) * 2.2
+
+print("Hello, " + name)
+
+# The 'str' function to convert the result back to a string for printing
+print("Your weight in LBS is: " + str(weight_lbs))
